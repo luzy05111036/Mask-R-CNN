@@ -1,1 +1,5 @@
 # Mask-R-CNN
+
+Using mask R-CNN to detect components of transmission towers photographed by drones. The images were annotated with VIA software.
+
+we chose to implement the Mask R-CNN object detection and segmentation model on the provided drone images of transmission tower components. At the beginning of the semester, students in the course annotated these images using VGG Image Annotator (VIA). These annotations were then compiled by the instructors, and fine-tuned to serve as a suitable dataset for object detection. To train an object detection model, we used Matterport’s implementation of Mask R-CNN, which is written in Python 3, and runs on a TensorFlow and Keras backend. In order to prepare training and testing code, we followed a four part series of Youtube videos created by Data Lab at TXST (the link to the channel is provided in the references section). Additionally, we used Google Colab for training and inference due to GPU availability, which made the running time of training manageable. The sections below will briefly detail the process behind the implementation, as well as display concrete results obtained in the project.
